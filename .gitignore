@@ -201,3 +201,28 @@ logs/
 
 # Jupyter
 .ipynb_checkpoints/
+# ==========================
+# Data
+# ==========================
+data/raw/*
+data/processed/*
+data/sample/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/sample/.gitkeep
+
+# Feature Store
+feature_store/*
+!feature_store/.gitkeep
+
+# Models
+models/*
+!models/.gitkeep
+
+# Large ML files
+*.csv
+*.parquet
+*.npz
+*.pkl
+*.joblib
