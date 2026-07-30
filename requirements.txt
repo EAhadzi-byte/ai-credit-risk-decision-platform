@@ -14,3 +14,4 @@ nltk
 fredapi
 requests
 python-dotenv
+reportlab
