@@ -1,0 +1,11 @@
+{
+    "Feature Store": "Macroeconomic Feature Store",
+    "Version": "1.0",
+    "Rows": 144,
+    "Columns": 25,
+    "Created": "2026-07-16 21:53:10",
+    "Source": [
+        "FRED",
+        "GDELT"
+    ]
+}

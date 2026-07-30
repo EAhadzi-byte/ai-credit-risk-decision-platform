@@ -1,0 +1,12 @@
+{
+    "Dataset": "fred_monthly_features",
+    "Version": "v1.0",
+    "Export Time": "20260713_111305",
+    "Rows": 144,
+    "Columns": 22,
+    "Study Period": "2007-01 to 2018-12",
+    "Missing Values": 0,
+    "Created Features": 9,
+    "File": "fred_monthly_features_20260713_111305.csv",
+    "SHA256": "eede4bde5b0bf61de1565e788876659b3c0b58c543e537485331cbaf2e4454dc"
+}
