@@ -1,0 +1,16 @@
+
+
+TOP WORD ANALYSIS
+
+The most frequently occurring loan title words are
+
+debt, consolidation, credit, card, refinancing, home, improvement, purchase, major, expenses.
+
+This indicates that borrowers primarily request loans for
+consumer finance purposes including debt refinancing,
+credit card repayment and home improvement.
+
+These words will later be converted into TF-IDF features
+to investigate whether textual information improves
+credit risk prediction.
+

@@ -1,0 +1,12 @@
+COMBINED FEATURE MATRIX REPORT
+==================================================
+
+Structured Features : 18
+Text Features       : 52
+Combined Features   : 70
+
+Training Density : 0.145400
+Testing Density : 0.145413
+
+Matrix C successfully created.
+Ready for Model Development.

@@ -1,0 +1,51 @@
+
+BUSINESS INSIGHTS
+============================================================
+
+Portfolio Overview
+------------------------------------------------------------
+The Lending Club training portfolio contains
+400,000 loans.
+
+Borrowers mainly request funding for a limited
+set of financial purposes, with debt consolidation,
+credit card refinancing, and home improvement
+representing the dominant categories.
+
+------------------------------------------------------------
+Credit Risk Observations
+
+Observed default rates differ across loan purposes,
+suggesting that borrower intention contains useful
+credit risk information.
+
+The highest observed risk major title is:
+'Green loan'
+with a default rate of
+23.53%.
+
+The lowest observed risk major title is:
+'Credit Card/Auto Repair'
+with a default rate of
+0.00%.
+
+------------------------------------------------------------
+Model Development
+
+The loan title field demonstrates sufficient
+quality to justify transformation using TF-IDF.
+
+The generated textual representation will be
+combined with structured financial variables
+during feature engineering to investigate whether
+NLP improves predictive performance and
+model interpretability.
+
+------------------------------------------------------------
+Business Recommendation
+
+Continue with Matrix B generation using TF-IDF
+and combine with structured borrower variables
+to produce Matrix C for model development.
+
+============================================================

@@ -1,0 +1,40 @@
+
+
+EXECUTIVE SUMMARY
+Explainable AI Credit Risk Decision Platform
+
+Training Dataset Size:
+400,000 loans
+
+Overall Default Rate:
+16.36 %
+
+Average Loan Amount:
+£15,351.19
+
+Average Annual Income:
+£75,494.55
+
+Average Interest Rate:
+12.56 %
+
+Most Common Loan Grade:
+C
+
+Most Common Loan Purpose:
+debt_consolidation
+
+Highest Correlated Feature:
+int_rate
+
+Correlation Coefficient:
+0.244
+
+Highest VIF Feature:
+int_rate
+
+Highest VIF:
+7.42
+
+END OF REPORT
+

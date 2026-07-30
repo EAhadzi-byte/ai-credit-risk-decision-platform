@@ -1,0 +1,21 @@
+TF-IDF GOVERNANCE REPORT
+
+Training documents : 400000
+Vocabulary size : 30
+Matrix sparsity : 89.03 %
+Matrix density : 10.9727 %
+
+Top 10 Terms
+ • consolidation
+ • debt
+ • debt consolidation
+ • card
+ • credit
+ • credit card
+ • refinancing
+ • card refinancing
+ • home
+ • home improvement
+
+Status : PASSED
+Ready for Matrix C generation.

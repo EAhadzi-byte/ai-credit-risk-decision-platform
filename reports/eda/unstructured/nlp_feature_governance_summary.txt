@@ -1,0 +1,75 @@
+
+============================================================
+
+NLP FEATURE GOVERNANCE REPORT
+
+============================================================
+
+Feature Name
+
+title
+
+------------------------------------------------------------
+
+Quality Assessment
+
+Training Records:
+400,000
+
+Completion Rate:
+99.97%
+
+Missing Records:
+111
+
+Vocabulary Size:
+44
+
+Average Words:
+2.18
+
+------------------------------------------------------------
+
+Feature Engineering
+
+Cleaning Applied:
+YES
+
+Stop Words Removed:
+YES
+
+TF-IDF Vocabulary:
+20
+
+Minimum Document Frequency:
+5
+
+Maximum Features:
+5000
+
+------------------------------------------------------------
+
+Governance Assessment
+
+Data Leakage Risk:
+LOW
+
+Reproducible Pipeline:
+YES
+
+Deployment Ready:
+YES
+
+Suitable for Matrix B:
+YES
+
+============================================================
+
+Overall Recommendation
+
+The loan title feature satisfies the minimum quality
+requirements for TF-IDF feature engineering and is approved
+for inclusion within the explainable credit risk modelling
+pipeline.
+
+============================================================

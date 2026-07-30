@@ -1,0 +1,60 @@
+{
+    "Pipeline": {
+        "Project": "Explainable AI Credit Risk Decision Platform",
+        "Notebook": "FRED Macroeconomic Data Pipeline",
+        "Version": "1.0",
+        "Execution Time": "2026-07-13 12:57:17",
+        "Environment": "Development",
+        "Status": "SUCCESS"
+    },
+    "Dataset": {
+        "Rows": 144,
+        "Columns": 22,
+        "Original Indicators": 8,
+        "Engineered Features": 9,
+        "Missing Values": 0,
+        "Duplicate Rows": 0,
+        "Study Period": "2007-01-01 to 2018-12-01"
+    },
+    "Validation": {
+        "Overall Validation": "PASS",
+        "Primary Key": true,
+        "Chronological": true,
+        "Expected Rows": 144,
+        "Actual Rows": 144
+    },
+    "Governance": {
+        "Project": "Explainable AI Credit Risk Decision Platform",
+        "Dataset": "FRED Macroeconomic Indicators",
+        "Owner": "Emmanuel Ahadzi",
+        "Version": "1.0",
+        "Environment": "Development",
+        "Generated": "2026-07-13T11:39:10.237063",
+        "Python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+        "Operating System": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+        "Quality Score": 100.0,
+        "Rows": 144,
+        "Columns": 22,
+        "Missing Values": 0,
+        "Duplicate Rows": 0,
+        "Numeric Columns": 20,
+        "Datetime Columns": 1,
+        "Memory (MB)": 0.03
+    },
+    "Exports": {
+        "CSV": "/Users/emmanuelahadzi/data/external/fred/fred_monthly_features_20260713_111305.csv",
+        "Parquet": "/Users/emmanuelahadzi/data/external/fred/fred_monthly_features_20260713_111305.parquet",
+        "Metadata": "/Users/emmanuelahadzi/data/external/fred/fred_monthly_features_metadata.json",
+        "Governance": "/Users/emmanuelahadzi/reports/macroeconomic/fred_governance_report.json",
+        "Validation": "/Users/emmanuelahadzi/reports/macroeconomic/fred_validation_report.csv"
+    },
+    "Next Stage": {
+        "Next Notebook": "Macroeconomic Data Integration",
+        "Inputs": [
+            "fred_monthly_features.csv",
+            "gdelt_monthly_features.csv",
+            "lending_club_processed.csv"
+        ],
+        "Output": "macroeconomic_feature_store.csv"
+    }
+}

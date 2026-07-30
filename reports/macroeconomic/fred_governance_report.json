@@ -1,0 +1,18 @@
+{
+    "Project": "Explainable AI Credit Risk Decision Platform",
+    "Dataset": "FRED Macroeconomic Indicators",
+    "Owner": "Emmanuel Ahadzi",
+    "Version": "1.0",
+    "Environment": "Development",
+    "Generated": "2026-07-13T11:39:10.237063",
+    "Python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+    "Operating System": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "Quality Score": 100.0,
+    "Rows": 144,
+    "Columns": 22,
+    "Missing Values": 0,
+    "Duplicate Rows": 0,
+    "Numeric Columns": 20,
+    "Datetime Columns": 1,
+    "Memory (MB)": 0.03
+}

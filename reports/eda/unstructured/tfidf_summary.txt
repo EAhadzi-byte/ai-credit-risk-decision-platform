@@ -1,0 +1,27 @@
+
+
+TF-IDF FEATURE SUMMARY
+
+Documents analysed:
+
+400,000
+
+Vocabulary Size:
+
+20
+
+Maximum Vocabulary:
+
+5000
+
+Minimum Document Frequency:
+
+5
+
+Top Predictive Terms
+
+consolidation, debt, card, credit, refinancing, home, improvement, purchase, major, business
+
+These words will later be combined with the structured
+financial variables to produce Matrix C for the final
+credit risk prediction models.

@@ -1,0 +1,32 @@
+
+
+TEXT QUALITY EXECUTIVE SUMMARY
+
+Training Records
+
+400,000
+
+Average Purpose Length
+
+2.18 words
+
+Median title Length
+
+2 words
+
+Longest title
+
+7 words
+
+Vocabulary Size
+
+44
+
+Missing Title
+
+111
+
+Empty Clean Title
+
+21,190
+

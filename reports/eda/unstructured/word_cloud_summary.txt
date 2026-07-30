@@ -1,0 +1,13 @@
+
+WORD CLOUD SUMMARY
+
+The word cloud highlights the dominant borrowing titles within the
+training portfolio.
+
+The most prominent words represent the largest borrowing categories,
+which are likely to contribute the greatest amount of information
+during TF-IDF feature engineering.
+
+This qualitative assessment supports the use of textual features
+within the credit risk prediction model.
+
