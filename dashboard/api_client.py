@@ -3,8 +3,16 @@ Credit Risk AI Platform
 API Client
 ___________________________________________________
 """
+import os
+import sys
 
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+    
 import requests
+
 from app.schemas import LoanApplication
 from app.services import prediction_service
 from app.services import explanation_service
