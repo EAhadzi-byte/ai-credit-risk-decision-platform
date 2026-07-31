@@ -206,6 +206,8 @@ logs/
 data/raw/*
 data/processed/*
 data/sample/*
+
+# Keep inference metadata
 !data/feature_store/matrix_D_feature_names.csv
 
 !data/raw/.gitkeep
