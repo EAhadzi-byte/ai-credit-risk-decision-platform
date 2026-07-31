@@ -35,7 +35,7 @@ The home page provides an overview of the Explainable AI Credit Risk Decision Pl
 
 ## Credit Risk Prediction
 
-Users enter borrower information to generate a real-time credit risk prediction.
+Internal Users(Credit risk team) enter borrower information to generate a real-time credit risk prediction.
 
 <p align="center">
   <img src="assets/prediction-page.png" alt="Prediction Page" width="900"/>
