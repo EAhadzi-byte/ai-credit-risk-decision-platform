@@ -206,6 +206,7 @@ logs/
 data/raw/*
 data/processed/*
 data/sample/*
+!data/feature_store/matrix_D_feature_names.csv
 
 !data/raw/.gitkeep
 !data/processed/.gitkeep
@@ -214,7 +215,7 @@ data/sample/*
 # Feature Store
 feature_store/*
 !feature_store/.gitkeep
-!feature_store/matrix_D_feature_names.csv
+
 
 # Models
 
