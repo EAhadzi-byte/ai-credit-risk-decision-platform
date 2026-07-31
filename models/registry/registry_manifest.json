@@ -1,0 +1,9 @@
+{
+    "model": "champion_xgboost.pkl",
+    "feature_names": "matrix_D_feature_names.csv",
+    "metadata": "model_metadata.json",
+    "checksum": "model_checksum.json",
+    "model_card": "model_card.md",
+    "registry_version": "1.0.0",
+    "created": "2026-07-22T12:25:59.853077"
+}

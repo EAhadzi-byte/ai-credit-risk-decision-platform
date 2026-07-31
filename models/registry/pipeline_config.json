@@ -1,0 +1,19 @@
+{
+    "project_name": "Explainable AI Credit Risk Decision Platform",
+    "model_name": "Optimised_XGBoost",
+    "model_version": "1.0.0",
+    "algorithm": "Optimised XGBoost",
+    "feature_matrix": "Matrix D",
+    "target_column": "loan_status",
+    "random_state": 42,
+    "feature_names_file": "matrix_D_feature_names.csv",
+    "model_file": "champion_xgboost.pkl",
+    "metadata_file": "model_metadata.json",
+    "checksum_file": "model_checksum.json",
+    "model_card_file": "model_card.md",
+    "preprocessors": {
+        "structured_preprocessor": "structured_preprocessor.pkl",
+        "tfidf_vectorizer": "tfidf_vectorizer.pkl"
+    },
+    "created": "2026-07-22 13:01:02"
+}

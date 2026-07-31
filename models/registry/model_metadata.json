@@ -1,0 +1,18 @@
+{
+    "model_name": "Optimised_XGBoost",
+    "version": "1.0.0",
+    "algorithm": "Optimised XGBoost",
+    "feature_matrix": "Matrix D",
+    "target": "loan_status",
+    "training_date": "2026-07-22 11:04:28",
+    "random_state": 42,
+    "number_of_features": 91,
+    "feature_file": "matrix_D_feature_names.csv",
+    "performance": {
+        "accuracy": 0.63182,
+        "precision": 0.2660720411663808,
+        "recall": 0.7110812297536825,
+        "f1": 0.3872449489065672,
+        "roc_auc": 0.7246709357954736
+    }
+}

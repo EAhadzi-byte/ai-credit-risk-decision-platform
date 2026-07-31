@@ -201,9 +201,8 @@ logs/
 
 # Jupyter
 .ipynb_checkpoints/
-# ==========================
+
 # Data
-# ==========================
 data/raw/*
 data/processed/*
 data/sample/*
@@ -217,12 +216,21 @@ feature_store/*
 !feature_store/.gitkeep
 
 # Models
-models/*
-!models/.gitkeep
 
-# Large ML files
+# Ignore large training matrices only
+models/matrix_*.pkl
+
+# Keep inference artifacts
+!models/champion_xgboost.pkl
+!models/optimised_xgboost.pkl
+!models/structured_preprocessor.pkl
+!models/preprocessing/
+!models/preprocessing/tfidf_vectorizer.pkl
+!models/registry/
+!models/registry/**
+!models/*.joblib
+
+# Large datasets
 *.csv
 *.parquet
 *.npz
-*.pkl
-*.joblib
