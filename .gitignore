@@ -214,6 +214,7 @@ data/sample/*
 # Feature Store
 feature_store/*
 !feature_store/.gitkeep
+!feature_store/matrix_D_feature_names.csv
 
 # Models
 
