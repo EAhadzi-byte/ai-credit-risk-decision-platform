@@ -2,15 +2,15 @@ pandas==2.3.3
 numpy==2.3.5
 scikit-learn==1.7.2
 xgboost==3.3.0
-shap==0.48.0
+shap==0.52.0
+scipy==1.16.3
+joblib==1.5.2
 matplotlib==3.10.6
 plotly==6.3.0
 streamlit==1.49.1
 
 fastapi==0.116.1
 uvicorn==0.35.0
-joblib==1.5.2
-scipy==1.16.3
 nltk==3.9.1
 fredapi==0.5.2
 requests==2.32.5
