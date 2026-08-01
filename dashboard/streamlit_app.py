@@ -487,9 +487,17 @@ if prediction is not None and explanation is not None:
 
     display_df = shap_df.copy()
 
-    display_df.columns = [
-        "Feature",
-        "SHAP Value"]
+    # Only keep the two columns needed for display
+
+    display_df = display_df[["feature", "shap_value"]]
+
+    display_df = display_df.rename(
+
+        columns={
+
+            "feature": "Feature",
+
+            "shap_value": "SHAP Value"})
 
     st.dataframe(
         display_df,
