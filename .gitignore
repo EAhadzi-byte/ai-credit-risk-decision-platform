@@ -209,6 +209,7 @@ data/sample/*
 
 # Keep inference metadata
 !data/feature_store/matrix_D_feature_names.csv
+!data/feature_store/macroeconomic_feature_store.parquet
 
 !data/raw/.gitkeep
 !data/processed/.gitkeep
@@ -217,6 +218,7 @@ data/sample/*
 # Feature Store
 feature_store/*
 !feature_store/.gitkeep
+!
 
 
 # Models
