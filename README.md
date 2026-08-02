@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-Coming soon
+[https://ai-credit-risk-decision-platformgit-wn9hwdskx57r5qsgrlj8km.streamlit.app/]
 
 The application can be run locally using Streamlit and FastAPI.
 
